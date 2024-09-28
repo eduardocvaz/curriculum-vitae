@@ -1,0 +1,43 @@
+.contact-container {
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-container ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-container li {
+    margin-bottom: 15px;
+}
+
+.contact-container strong {
+    font-weight: bold;
+}
+
+.contact-container span {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+/* Optional: Style for links */
+.contact-container a {
+    color: #00ff8c;
+    text-decoration: none;
+}
+
+.contact-container a:hover {
+    text-decoration: underline;
+}
+@media print {
+    .contact-container li {
+        margin-bottom: 5px;
+    }
+    .contact-container h1 {
+        margin: 10px 0 0 0;
+    }
+    .contact-container ul {
+        margin: 10px 0 0 0;
+    }
+}

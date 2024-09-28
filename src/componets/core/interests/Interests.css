@@ -1,0 +1,29 @@
+.interests-container {
+    margin: 10px;
+    padding: 10px;
+}
+.interests-content {
+    padding: 0;
+}
+.interests-content ul {
+    list-style: none;
+}
+.interests-content li {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #ffffff; /* Cor de fundo */
+    color: #000000; /* Cor do texto */
+    border: 2px solid #ffffff; /* Cor da borda */
+    border-radius: 5px; /* Borda arredondada */
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+}
+.interests-content li:hover {
+    background-color: #28A598; /* Cor de fundo ao passar o mouse */
+    border-color: #28A598; /* Cor da borda ao passar o mouse */
+    color: #fff; /* Cor do texto ao passar o mouse */
+}

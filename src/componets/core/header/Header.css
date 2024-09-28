@@ -1,0 +1,29 @@
+.header-conteiner {
+    margin: 0 auto;
+    padding: 10px 30px;
+    box-sizing: border-box;
+    background-color: #28A598;
+    color: #fff;
+}
+
+.header-conteiner hr {
+    border: 1px solid #ccc; /* Cor da linha separadora */
+    margin: 20px 0;
+    width: 40%;
+}
+.header-conteiner p {
+    margin: 1px;
+}
+
+.header-conteiner a {
+    color: #00ff8c;
+    text-decoration: none;
+}
+
+@media print {
+    .header-conteiner hr {
+        border: 1px solid #ccc; /* Cor da linha separadora */
+        margin: 20px 0;
+        width: 50%;
+    }
+}

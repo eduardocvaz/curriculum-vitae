@@ -1,0 +1,16 @@
+.footer-conteiner {
+    display: none;
+}
+
+@media print {
+    .footer-conteiner {
+        display: block;
+        text-align: center;
+    }
+    /*.footer-conteiner h2 {*/
+    /*    color: #28A598;*/
+    /*}*/
+    .footer-conteiner a {
+        color: #00ff8c;
+    }
+}
