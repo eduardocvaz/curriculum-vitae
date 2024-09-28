@@ -40,7 +40,7 @@ const translations = {
                 {
                     title: "Bachelor's, Software Engineering",
                     institution: 'Federal University of Rio Grande do Norte',
-                    period: '(2023 - In progress)',
+                    period: '(02/2023 - In progress)',
                     description: 'This highly specialized program aims to prepare students for the job market by providing a strong foundation in mathematics and programming. It covers essential concepts to establish a solid base, equipping students to tackle software development challenges and succeed in their careers.',
                     location: 'Natal/RN, Brazil',
                 },
