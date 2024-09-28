@@ -18,10 +18,10 @@
   display: flex;
 }
 .conteiner h1 {
-  color: #28A598;
+  color: #2ec2b2;
 }
 .conteiner h2 {
-  color: #28A598;
+  color: #1aa496;
 }
 
 .info-content {
@@ -55,6 +55,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .centered-div {
+    width: 95%; /* Largura da div para impressão */
+    /*max-width: 800px; !* Largura máxima da div *!*/
+    margin: 0 auto; /* Centralizar a div horizontalmente */
+    box-sizing: border-box; /* Incluir padding e border na largura total */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
   .conteiner {
     flex-direction: column;
   }
